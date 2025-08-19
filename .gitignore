@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Go build cache & modules
+/bin/
+/obj/
+/pkg/
+/vendor/
+/dist/
+*.a
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Dependency directories (if using Go modules vendor)
+vendor/
+
+# Coverage files
+*.cover
+*.cov
+coverage.*
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Go workspace file
+go.work
+go.work.sum
