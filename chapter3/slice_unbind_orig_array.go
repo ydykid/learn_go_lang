@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func sliceUnbindOrigArray() {
 	u := []int{11, 12, 13, 14}
 	fmt.Println("arrary:", u)
 	s := u[1:3]
