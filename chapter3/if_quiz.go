@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func main_if_quiz() {
 	if a := 1; false {
 	} else if b := 2; false {
 	} else if c := 3; false {
